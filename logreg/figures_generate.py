@@ -185,7 +185,7 @@ if __name__ == "__main__":
     # Initialize model
     lr = LogReg(len(vocab), args.lam, lambda x: args.eta)
 
-    print("eta=0.3")
+    print("eta=3.0")
 
     # Iterations
     iteration = 0
